@@ -91,10 +91,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_project',
-        'HOST':'47.111.224.146',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'123456',
+        'HOST':'*',
+        'PORT':'*',
+        'USER':'*',
+        'PASSWORD':'*',
     }
 }
 
@@ -157,8 +157,8 @@ CACHES = {
 # QINIU_ACCESS_KEY = 'nk8wJpFVx3OwMUsFnQClDXpYuetrlVWC9fywl5W1'
 # QINIU_SECRET_KEY = 'y7mjjNoadjm0ZQv6L-dRQhHN_1sJQaP-HMoAWr8g'
 # QINIU_BUCKET_NAME = 'projectdjango'
-QINIU_ACCESS_KEY = 'p_p2-jutlTI1mlPCSfMEO8DyZnkQaiFrd9IOlvpz'
-QINIU_SECRET_KEY = 'rN0YQux570vbhL5d8QvShrV-SnjzTdqhlfWstWri'
+QINIU_ACCESS_KEY = 'p_p2-*'
+QINIU_SECRET_KEY = '*-SnjzTdqhlfWstWri'
 QINIU_BUCKET_NAME = 'djangoproject'
 QINIU_DOMAIN = 'http://q6ntqeh25.bkt.clouddn.com/'
 
